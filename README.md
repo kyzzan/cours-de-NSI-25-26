@@ -1,2 +1,3 @@
 # cours-de-NSI-25-26
-jsuis Arouf gangsta
+coucou les ptits loulou , jsuis Arouf gangsta
+des trucs sur `html`, `css`, `javascript`...
