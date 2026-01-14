@@ -5,4 +5,16 @@ body {
 p {
     background-color: black;
     color: aliceblue;
+    width: 500px;
+}
+
+.premier{
+    background-color: chartreuse;
+    width: 33%;
+}
+img{
+    height: 200px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-radius: 10%;
 }

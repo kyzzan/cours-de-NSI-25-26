@@ -65,3 +65,27 @@ on peut écrire le css :
 
 il existe plus de 500 propriétés et encore d'avantage de valeurs possibles mais souvent , les valeurs sont :
 - des couleurs (soit un nom soit un code comme rgb)
+- des tailles : plusieur unités sont possibles
+    - `px` pour pixels
+    - `em` relatif a la taille de la police 
+    - `%` relatif a la taille de la page 
+
+rem : quand le selecteur css et un element html ( par exemple `p`)
+alors les propriétés s'appliquent à tous  les éléments de meme types 
+
+pour différencier des elements de meme nature, on peut utiliser l'attribut `class` ou `id`. dans ce cas , le selecteur est le nom de la classe précédé d'un point ou le nom de l'identifiant précédé d'un `#`. 
+
+rem le contenu d'un elemet html suit le principe du modèle en boite
+[https://www.w3schools.com/css/css_boxmodel.asp](https://www.w3schools.com/css/css_boxmodel.asp)
+
+trois propriété importante liée :
+- `border`
+- `padding`
+- `marging`
+
+rem : propriétés spécifique au texte :
+- `text-align`
+- `font`
+
+il existe deux balises html universelles qui permetttent de regrouper des elements ou du texte 
+- 
