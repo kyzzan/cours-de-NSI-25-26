@@ -88,4 +88,5 @@ rem : propriétés spécifique au texte :
 - `font`
 
 il existe deux balises html universelles qui permetttent de regrouper des elements ou du texte 
-- 
+- <div></div>
+- <span></span>
