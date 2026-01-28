@@ -1,20 +1,45 @@
-body {
-    background-color: rgb(192, 129, 36);
+  
+ body{ 
+    background-color: rgba(182, 167, 163, 0.815);
 }
 
 p {
-    background-color: black;
-    color: aliceblue;
-    width: 500px;
+    background-color: rgba(0, 0, 0, 0.267);
+    color: white;
+    /* width: 200px; */
+    width: 50%;
 }
 
-.premier{
-    background-color: chartreuse;
-    width: 33%;
-}
-img{
-    height: 200px;
+img {
+    height:200px;
     border-style: solid;
-    border-color: cornflowerblue;
-    border-radius: 10%;
+    border-color: forestgreen;
+    border-radius: 50%;
+    /* padding: 20px; */
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    margin-left: 40%;
+}
+
+h1{
+    border-bottom: solid;
+}
+
+div{
+    border: solid;
+    width:33%;
+    margin-left:33%;
+
+.premier{
+    background-color: rgb(190, 227, 153);
+    width: 100%;
+    text-align:justify;
+}
+
+#deux{
+    background-color: rgb(172, 202, 224);
+    width: 100%;
+    text-align:justify;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
