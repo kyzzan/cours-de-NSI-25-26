@@ -22,7 +22,7 @@
     - /workspaces/web2026/DA/DC`
 - Utiliser la commande `tree` pour contrôler.
 -  Se déplacer dans le dossier `/workspaces/web2026/DA/DC` et vérifier que vous êtes bien arrivé !
--  Utiliser la commande `cd ../../` et commenter.
+-  Utiliser la commande `cd ../../` et commenter.je suis revenue 2 dossier en arriere 
 -  Ouvrir le fichier `fic3.txt` avec l’éditeur `nano`
 - Ecrire 3 fois la ligne *"J’aime NSI"*, 2 fois la ligne *"J’aime bien lire aussi"* et 1 fois *"Bye"*
 -  Appuyer sur <kbd>Ctrl</kbd>+<kbd>x</kbd> pour demander à quitter l’éditeur et valider avec la touche <kbd>y</kbd>

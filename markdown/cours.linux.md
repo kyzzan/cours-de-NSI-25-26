@@ -84,3 +84,49 @@ le chemin absolue vers un fichier ou un dossier est le chemin depuis la racine (
 un chemin relatif commence par `./`ou `../`: on part du dossier suivant 
 
 la maison de l'utilisateur s'écrit `/home/utilisateur` ou `-` et est accessible avec la commande `cd` sans argument.
+
+---------------
+la commande `cp`peut copier et renommer.
+
+```bash
+$ cp cheminVersFichier cheminVersDossier/
+```
+```bash
+$ cp cheminVersFichier cheminVersDossier/NouveauNom
+```
+
+La commande `mv` se comporte de manière semblable.
+
+----------------
+La commande `rmdir` supprime des dossiers vides; on lui préfère souvent `rm -r` qui supprime les fichiers
+et les dossiers.
+
+-----------------
+Il est possible d'écrire des commandes dans un fichier portant l'extension `.sh` ; pour exécuter ce fichier:
+
+```bash
+./monFichier.sh
+```
+
+Par défaut, les fichier sur Linux ne sont pas exécutables. Quand on crée un fichier (un dossier), il possède
+des **permissions** qui peuvent être différentes pour:
+- `user` c'est le propriétaire
+- `group` c'est le memebre d'un groupe particulier
+- `other` le reste du monde
+
+Les permissions sur un fichier (un dossier) sont:
+- *read*: `r` valeur 4
+- *write*: `w` valeur 2
+- *execute*: `x` valeur 1
+
+La command `chmod nnn` permet de modifier les permissions ; il existe une autre syntaxe avec les lettres `u,g,o` (user, group, other) et les symboles `+, -` pour ajouter ou retirer des droits.
+
+```bash
+chmod 754 ./monFichier                # rwx pour user, rx pour group, r pour other
+chmod u-x,g+rw,o+w ./monFichier       # retire x pour user, ajoute rw pour group, ajoute w pour other
+```
+
+----------
+
+Le symbole `>` ou `>>` permet de *rediriger* la sortie d'une commande vers un fichier. Si ce fichier
+n'existe pas, alors il est crée.
