@@ -67,7 +67,10 @@ Syntaxe générale:    `nom --option argument` ou `nom -option argument`
 |`pwd`|affiche le chemin absolu vers le dossier courant `./` |`$ pwd`|
 |`cd`|change de dossier courant  |`$ cd <chemin abs ou rela`|
 |`cp`|copier une source vers une destination  |`$ cp ./<truc a copier>./<endroit ou copier>< nouveau nom du fichier>`|
-
+|`rm`|supprimer des dossiers ou des fichiers |`$ rm -r <chemin>`|
+|`mv`|couper ou renommer des fichiers |`$ mv <source> <destination>`|
+|`echo`|affiche un texte sur la sortie standard (ecran) |`$ echo "i love u"`|
+|`chmod`|modifie les permissions des fichiers(dossiers) |`$ chmod 777 monFichier`|
 
 
 ---------------
@@ -129,4 +132,8 @@ chmod u-x,g+rw,o+w ./monFichier       # retire x pour user, ajoute rw pour group
 ----------
 
 Le symbole `>` ou `>>` permet de *rediriger* la sortie d'une commande vers un fichier. Si ce fichier
-n'existe pas, alors il est crée.
+n'existe pas, alors il est crée. le symbole `>>` ajoute le texte à la suite sans ecraser. 
+
+----------
+
+les fichier python ne sont pas des fichiers executables dans le shell. il faut donc un programme pour les executer : `python`
