@@ -132,8 +132,10 @@ chmod u-x,g+rw,o+w ./monFichier       # retire x pour user, ajoute rw pour group
 ----------
 
 Le symbole `>` ou `>>` permet de *rediriger* la sortie d'une commande vers un fichier. Si ce fichier
+
 n'existe pas, alors il est crée. le symbole `>>` ajoute le texte à la suite sans ecraser. 
 
 ----------
 
 les fichier python ne sont pas des fichiers executables dans le shell. il faut donc un programme pour les executer : `python`
+n'existe pas, alors il est crée.
