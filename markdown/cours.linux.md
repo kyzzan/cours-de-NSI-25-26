@@ -139,3 +139,11 @@ n'existe pas, alors il est crée. le symbole `>>` ajoute le texte à la suite sa
 
 les fichier python ne sont pas des fichiers executables dans le shell. il faut donc un programme pour les executer : `python`
 n'existe pas, alors il est crée.
+
+
+|wildcard|signification|exemple|
+|----|----|----|
+|`*`|autant de cararctère que l'on veut| `ls f*`|
+|`?`|exactement un caractère|`ls file?.txt`|
+|[arq] ou [a-r]|un des caractères dans la liste|`ls file[arq]*`|
+|`[!a-r]`|un caractère qui n'est pas dans la liste|`ls file[!arq]*`|
